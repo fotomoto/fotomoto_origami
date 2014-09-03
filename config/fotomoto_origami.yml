@@ -1,0 +1,11 @@
+development:
+  base_uri: http://origami.fotomoto.com
+  callback: http://my.fotomoto.dev:5000/origami_interfaces/process_success
+
+test:
+  base_uri: http://localhost:3000
+  callback: http://my.fotomoto.dev:5000/origami_interfaces/process_success
+
+production:
+  base_uri: http://origami.fotomoto.com
+  callback: my_production_username
